@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<!--
+        Prefix.exe prefixes each line of input with the specified string.
+        Copyright (C) 2023 Timothy J. Bruce
+	-->
+
+	<PropertyGroup>
+		<RootNamespace>Icod.Prefix</RootNamespace>
+		<AssemblyName>Prefix</AssemblyName>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+</Project>
