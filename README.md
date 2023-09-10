@@ -8,11 +8,12 @@ Displays this text.
 `Prefix.exe --copyright`
 Displays copyright and licensing information.
 
-`Prefix.exe --prefix thePrefix [--input inputFilePathName] [--output outputFilePathName]`
+`Prefix.exe (-p | --prefix | /prefix) thePrefix [(-i | --input | /input) inputFilePathName] [(-o | --output | /output) outputFilePathName] [(-t | --trim | /trim)]`
 Prefix.exe prefixes each line of input with the specified string.
 inputFilePathName and outputFilePathName may be relative or absolute paths.
 If inputFilePathName is omitted then input is read from StdIn.
 If outputFilePathName is omitted then output is written to StdOut.
+If --trim switch is specified, then input lines are trimmed of all surrounding whitespace and empty lines are ignored.
 
 ## Copyright and Licensing
 Prefix.exe prepends the specified string to the head of the specified file.
