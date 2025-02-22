@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<!--
         Prefix.exe prefixes each line of input with the specified string.
-        Copyright (C) 2023 Timothy J. Bruce
+        Copyright (C) 2025 Timothy J. Bruce
 	-->
 
 	<PropertyGroup>
@@ -15,8 +15,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="Icod.Argh" Version="1.1.1" />
-	  <PackageReference Include="Icod.Helpers" Version="1.0.0" />
+	  <PackageReference Include="Icod.Argh" Version="1.1.2" />
+	  <PackageReference Include="Icod.Helpers" Version="1.0.2" />
 	</ItemGroup>
 
 </Project>
